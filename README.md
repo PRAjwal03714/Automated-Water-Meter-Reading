@@ -1,4 +1,4 @@
-Automated Water Meter Reading | Arduino Uno, Python, Google cloud, Twilio API.
+Automated Water Meter Reading | Arduino Uno, Python, Google cloud, Twilio API.</br>
 ● Revolutionized water consumption monitoring by seamlessly integrating with existing meters and automating data collection,
 reducing billing errors.
 ● Precisely tracked water usage, streamlining billing processes for enhanced efficiency in water management
