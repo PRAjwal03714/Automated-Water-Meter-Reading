@@ -1,0 +1,10 @@
+/* Success message styles */
+.success-message-container {
+    margin-top: 150px; /* Adjust based on the height of the navbar */
+    text-align: center;
+}
+
+.success-icon {
+    color: green;
+    margin-bottom: 20px;
+}

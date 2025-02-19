@@ -1,0 +1,90 @@
+
+
+/* Navbar specific styles to avoid full page issue */
+.navbar {
+    width: 100%;
+    z-index: 1000;
+    position: fixed; 
+    top: 0;
+    left: 0;
+}
+
+/* Padding to avoid content being overlapped by the navbar */
+main {
+    padding-top: 70px; /* Adjust based on the navbar height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 70px);
+}
+
+/* MyReadings component styling */
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+    width: 80%;
+    max-width: 600px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input {
+    width: calc(100% - 12px);
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-group a {
+    word-break: break-all; /* Ensures the link wraps within the container */
+    display: block; /* Ensure the link takes up full width available */
+    margin-top: 5px; /* Add some spacing between the link and the previous element */
+    color: #007bff; /* Match the button color */
+    text-decoration: none; /* Remove underline */
+}
+
+.form-group a:hover {
+    text-decoration: underline; /* Underline on hover for better UX */
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+.payment-button {
+    display: block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+}
+
+.payment-button:hover {
+    background-color: #0056b3;
+}

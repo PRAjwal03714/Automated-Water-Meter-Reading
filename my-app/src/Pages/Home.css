@@ -1,0 +1,14 @@
+.photo-gallery {
+    margin-top: 100px; /* Add margin to avoid overlap with the navbar */
+    padding-bottom: 20px; /* Add some padding to the bottom */
+}
+
+.photo-gallery .carousel-item {
+    height: calc(100vh - 160px); /* Full viewport height minus navbar and padding */
+}
+
+.carousel-image {
+    height: 100%; /* Make image fill the carousel item */
+    width: 100%; /* Make image fill the carousel item */
+    object-fit: cover; /* Ensures the image covers the entire area */
+}
